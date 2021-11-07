@@ -1,0 +1,159 @@
+Body{background-image:url("https://clubdeescritura.com/wp-content/uploads/users-77/user-76529/2019/01/guerra-triple-alianza-17df23a18535d5043f37a47f32b1e7d9.jpg");
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+margin:0;
+font-family:Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+font-size:18px;
+}
+
+.header{background:#8C6949;
+padding:0.2rem 0;
+position:fixed;
+left:0;
+top:0;
+right:0;
+z-index:5;
+}
+
+.header a{
+color:white;
+text-decoration:none;
+}
+
+h1{color:#47290E;
+display:flex;
+justify-content: center;
+align-items: center;
+font-family:Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+font-size:40px;
+position:absolute;
+top:160px;
+padding: 10px 10px;
+line-height:1.3em
+}
+
+h2{Font-family:Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, serif;
+}
+
+#b1{position:absolute;
+border-style:none;
+top:300px;
+background-image:url("https://i.pinimg.com/474x/91/75/6e/91756ec0864e085670e13d80e30e6800.jpg");
+float:left;
+width:50%;
+padding-right:10px;
+}
+
+
+div h2{text-align:center;
+color:#904C10;
+text-decoration:underline;}
+
+div h3{color:#904C10;
+text-decoration:underline;
+padding-left:15px;}
+
+.container{
+width:85%;
+max-width:850px;
+margin:0 auto;
+}
+
+.main{
+padding:20px;
+width:70%;
+float:left;
+box-sizing:border-box;
+}
+
+.logo-nav-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+}
+
+.navigation ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+
+.navigation ul li{
+display:inline-block;
+}
+
+.navigation ul li a{
+display:block;
+padding:2rem 1rem;
+transition:all 0.4s linear;
+font-size:1.5rem;
+}
+
+.navigation ul li a:hover{
+background:#DBCBBD;
+}
+
+.logo{
+letter-spacing:10px;
+font-size:1.2em;
+}
+
+
+
+.a1{font-family:Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
+font-size:18px;
+text-decoration:none;
+margin:10px 20px;
+display:inline-block;
+background:#B38357;
+color:#47290E;
+padding:10px 20px;
+box-shadow:0px 5px 0px #7B522C;
+}
+a:hover{
+box-shadow: 0px 2px 0px #7B522C;
+}
+a:active{
+box-shadow:none;
+}
+
+
+
+@media only screen and (max-width:750px){
+body{background:#9F856C;
+}
+
+
+.navigation{
+width:100%;
+margin-top:1rem;
+}
+
+.header{background:#8C6949;
+padding:1rem 0;
+position:fixed;
+left:0;
+top:0;
+right:0;
+z-index:5;
+
+}
+
+
+.navigation ul li{
+display:block;
+}
+
+.navigation ul li a{
+display:block;
+padding:0.5rem 0rem;
+transition:all 0.4s linear;
+font-size:1.5rem;
+}
+
+.navigation ul li a:hover{
+background:#DBCBBD;
+}
+}
